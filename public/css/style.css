@@ -1,0 +1,58 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.sidecol {
+  padding-left:0px; 
+  padding-right:0px;
+  width:5%;
+  height:1024px;
+  background: #114483;
+}
+
+.navcol{
+  padding-left:0px; 
+  padding-right:0px;
+  width: 95%;
+}
+
+.navitem{
+  padding-top:8px;
+  padding-bottom:8px;
+}
+
+.sidebar_icon{
+ width:20px;
+ height:20px;
+}
+
+.containerown {
+  width: 600px;
+  margin: 50px auto;
+  border: 5px solid #333;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.linedivide1 {
+    display: block;
+    height: 32px;
+    width: 1px;
+    right: 192px;
+    background-color: #C4C4C4;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+}
